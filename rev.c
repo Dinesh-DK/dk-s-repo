@@ -2,7 +2,8 @@
 #include<string.h>
 void main()
 {
-    int buff[10];
-    fgets(buff,10,stdin);
+    int x;
+    char buff[10];
+    fgets(buff,10,x);
     puts(strrev(buff));
 }
